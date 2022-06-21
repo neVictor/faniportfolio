@@ -1,0 +1,46 @@
+.myworks {
+	&__card {
+		display: block;
+		width: 40%;
+		margin: 1em 0;
+	}
+
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	&__title {
+		width: 100%;
+	}
+
+	&__preview {}
+}
+
+.page {
+	&__section {}
+}
+
+.section {
+	&__title {}
+
+	&__text {}
+}
+
+.container {}
+
+.link {}
+
+.works-card {
+	&__preview {}
+
+	&__title {}
+
+	&__description {}
+}
+
+.image-block {
+	&__image {}
+}
+

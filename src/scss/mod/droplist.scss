@@ -1,0 +1,26 @@
+.droplist {
+    font-weight: 900;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        color: $color_fonts2;
+        transition: all $transition_time1;
+    }
+
+    &:hover &__list {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 110%;
+        display: block;
+        background-color: $color_back3;
+        text-align: center;
+        z-index: 2;
+        border-radius: 0.15em;
+    }
+
+    &__list {
+        display: none;
+    }
+}

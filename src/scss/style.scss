@@ -1,0 +1,28 @@
+// @import "mod/fonts.scss";
+@import "mod/normalize.scss";
+@import "mod/varibles.scss";
+
+@import "mod/page.scss";
+
+@import "mod/header.scss";
+@import "mod/about.scss";
+@import "mod/employment.scss";
+@import "mod/myworks.scss";
+@import "mod/footer.scss";
+
+@import "mod/avatar.scss";
+@import "mod/link.scss";
+@import "mod/droplist.scss";
+@import "mod/menu.scss";
+@import "mod/works-card.scss";
+@import "mod/image-block.scss";
+
+
+.monospace {
+    font-family: monospace;
+}
+
+.link:hover {
+    color: $color_fonts2;
+    transition: color $transition_time2;
+}

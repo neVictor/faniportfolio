@@ -1,0 +1,20 @@
+.about {
+    &__avatar {
+        width: 20%;
+
+        @media only screen and (max-width: 1240px) {
+            width: 40%;
+        }
+    }
+
+    &__title {
+        width: 100%;
+    }
+
+    &__container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
